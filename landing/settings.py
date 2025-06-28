@@ -24,7 +24,11 @@ SECRET_KEY = 'django-insecure-s3m-zq+gv3han_op$_o9p+sqi^09%4@uct^-_0spj=1lhv8@q=
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['.guens.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "dms-app-s707.onrender.com",  # ✅ Add this
+]
 
 
 
